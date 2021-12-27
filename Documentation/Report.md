@@ -2,7 +2,7 @@
 
 ### Краткое описание
 
-В соответствии с [планом](https://github.com/MVGIC/QA-Diploma/blob/master/Documentation/Plan.md) было проведено автоматизированное тестирование веб-сервиса покупки туров.
+В соответствии с [планом](https://github.com/axelbros/diplomaqa/blob/master/Documentation/Plan.md) было проведено автоматизированное тестирование веб-сервиса покупки туров.
 
 - В ходе автоматизации тестирования были реализованы позитивные и негативные сценарии;
 - Реализована поддержка двух баз данных - MySQL и PostgreSQL;
@@ -19,14 +19,14 @@
 
 #### При подключении к СУБД MySQL
 
-![](../../untitled28/Screenshots/AllureMySQL.png)
+![](https://github.com/axelbros/diplomaqa/blob/master/Screenshots/AllureMySQL.png?raw=true)
 
 * 14 - успешных, что составляет 48% 
 * 16 - не прошло, что составляет 52%
 
 #### При подключении к СУБД PostgreSQL
 
-![](../../untitled28/Screenshots/AllurePostgreSQL.png)
+![](https://github.com/axelbros/diplomaqa/blob/master/Screenshots/AllurePostgreSQL.png?raw=true)
 
 * 14 - успешных, что составляет 48%
 * 16 - не прошло, что составляет 52%
@@ -38,15 +38,15 @@
 - Составить документацию для приложения;
 - Исправить найденные ошибки:
 
-1) [Валидационные сообщения об ошибке не исчезают после введения и отправки корректных данных](https://github.com/MVGIC/QA-Diploma/issues/1)
-2) [Неверные сообщения об ошибке при отправке пустых полей](https://github.com/MVGIC/QA-Diploma/issues/2)
-3) [Отсутствует валидация в поле "Владелец"](https://github.com/MVGIC/QA-Diploma/issues/3)
-4) [Форма отправляется с нулевым месяцем](https://github.com/MVGIC/QA-Diploma/issues/4)
-5) [Успешная покупка тура по невалидной карте](https://github.com/MVGIC/QA-Diploma/issues/5)
-6) [Кнопки покупки отличаются по цвету](https://github.com/MVGIC/QA-Diploma/issues/6)
-7) [Сообщение об ошибке у корректно заполненного поля](https://github.com/MVGIC/QA-Diploma/issues/7)
-8) [Форма отправляется c невалидным значением в поле "CVC/CVV"](https://github.com/MVGIC/QA-Diploma/issues/8)
-9) [Кнопка "Продолжить" активна при незаполненных данных](https://github.com/MVGIC/QA-Diploma/issues/9)
-10) [Некорректное название вкладки сервиса в браузере](https://github.com/MVGIC/QA-Diploma/issues/10)
+1) [Валидационные сообщения об ошибке не исчезают после введения и отправки корректных данных](https://github.com/axelbros/diplomaqa/issues/9)
+2) [Неверные сообщения об ошибке при отправке пустых полей](https://github.com/axelbros/diplomaqa/issues/8)
+3) [Отсутствует валидация в поле "Владелец"](https://github.com/axelbros/diplomaqa/issues/7)
+4) [Форма отправляется с нулевым месяцем](https://github.com/axelbros/diplomaqa/issues/6)
+5) [Успешная покупка тура по невалидной карте](https://github.com/axelbros/diplomaqa/issues/5)
+6) [Кнопки покупки отличаются по цвету](https://github.com/axelbros/diplomaqa/issues/4)
+7) [Сообщение об ошибке у корректно заполненного поля](https://github.com/axelbros/diplomaqa/issues/3)
+8) [Форма отправляется c невалидным значением в поле "CVC/CVV"](https://github.com/axelbros/diplomaqa/issues/2)
+9) [Кнопка "Продолжить" активна при незаполненных данных](https://github.com/axelbros/diplomaqa/issues/1)
 
-Особое внимание нужно уделить [второму](https://github.com/MVGIC/QA-Diploma/issues/2) баг-репорту, так как большая часть тестов падает из-за ошибки, описанной в этом репорте.
+
+Особое внимание нужно уделить [второму](https://github.com/axelbros/diplomaqa/issues/8) баг-репорту, так как большая часть тестов падает из-за ошибки, описанной в этом репорте.
